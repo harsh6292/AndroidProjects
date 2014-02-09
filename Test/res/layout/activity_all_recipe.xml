@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+     <!-- <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_button"
+        android:layout_weight="3" ></ImageView> -->
+        <TextView 
+            android:id="@+id/firstTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="1stTextView" >
+        </TextView>
+        
+         <TextView 
+            android:id="@+id/FourthTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/recipe_name" > 
+         </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/ThirdTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/recipe_name" >
+        </TextView>
+        <TextView 
+            android:id="@+id/secondTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/recipe_name" >
+            
+        </TextView>
+    </TableRow> 
+
+</TableLayout></ScrollView>
